@@ -37,7 +37,7 @@ Acá una breve explicación del contenido de los archivos:
 
 ### Objetivos
 
-Tras obtenido el conjunto de datos se realiza su procesamiento, se analiza y se crea un modelo para realizar la predicción de qué jugador pasará al salón de la fama. Cada uno de los conjuntos de datos en archivos csv se recolectan estratégicamente para tener los datos dispuestos de una manera adecuada antes de ingresarla al modelo de Machine Learning, a continuación, algo de los procesos específicos que se hicieron con algunos de ellos: 
+Tras obtenido el conjunto de datos se realiza su procesamiento, se analiza y se crea un modelo para realizar la predicción de qué jugador pasará al salón de la fama. Cada uno de los conjuntos de datos en archivos csv se recolectan estratégicamente para tener los datos dispuestos de una manera adecuada antes de ingresarla al modelo de Machine Learning, y dado a que son varias tablas de datos el preprocesamiento cuenta con varios pasos que pueden parecer extensos; a continuación, algo de los procesos específicos que se hicieron con algunos de ellos: 
 
 Dado a que en el dataset de Batting no se muestran las estadísticas totales del juego, sino las estadísticas por año jugado, entonces sumamos todos los datos ya que lo que nos interesan son las estadísticas totales. Entre estas estadísticas están: juegos en los que participó, veces de bateo, carreras anotadas, hits dobles, etc. Este proceso se realiza mediante una sumatoria en un bucle for donde de acuerdo con la identificación del jugador se van sumando las variables estadísticas correspondientes y de esta manera se almacenará toda la información de los años jugados. 
 
