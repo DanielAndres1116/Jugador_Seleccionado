@@ -43,7 +43,7 @@ Dado a que en el dataset de Batting no se muestran las estadísticas totales del
 
 Lo mismo explicado en el párrafo anterior es lo mismo que se hace para el resto de los archivos, ya que lo que necesitamos son las estadísticas finales. Aunque para el caso de los premios tratando con el dataset AwardsPlayers en vez de un acumulador de valores se emplea en este caso un contador por cada premio para que vaya contando el número de diferentes premios que tiene cada jugador y del mismo modo ocurre con el dataset AllstarFull donde se cuenta en cuantos juegos de las estrellas jugó cada jugador. 
 
-A partir de la información obtenida en el dataset HallOfFame.csv se obtuvo el valor dependiente para el análisis de Machine Learning, ya que aquí están los votos del jugador para ser parte del salón de la fama. El resto de información como de los manager y cuerpo técnico se borran ya que no es de importancia. 
+A partir de la información obtenida en el dataset HallOfFame.csv se obtuvo la variable dependiente para el modelo de Machine Learning, ya que aquí están los votos del jugador para ser parte del salón de la fama. El resto de información como de los manager y cuerpo técnico se borran ya que no es de importancia. 
 
 Estos son algunos de los gráficos de importancia de características relevantes:
 
