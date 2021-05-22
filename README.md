@@ -67,4 +67,4 @@ Este tipo de análisis, preprocesamiento y empleo del modelo es aplicable a much
 
 Nota: el programa está sujeto a mejoras tales como aplicar más modelos de machine learning y aplicar más métricas de evaluación tal como la matriz de confusión. 
 
-
+También podemos ver el programa acá: https://nbviewer.jupyter.org/github/DanielAndres1116/Jugador_Seleccionado_Prediccion/blob/main/JugadorSeleccionadoPrediccion.ipynb 
