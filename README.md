@@ -1,6 +1,6 @@
 # 1. Prediction of the baseball players selected for the hall of fame: is this player going to be recognized?
 
-## 1.2. Dataset Description
+## 1.1. Dataset Description
 
 The data was collected by Sean Lahman and was purchased on his page at the following link:
 
@@ -51,5 +51,13 @@ The files were copied to the root folder of the project for easier access. Each 
 •	Fielding.csv contains information about the player’s defense, such as assists, errors committed, and double plays.
 •	HallOfFame.csv contains information about whether the player received votes or not to become part of the Hall of Fame, as well as additional details such as manager and coaching staff information.
 •	People.csv contains the corresponding code, player’s name, and all personal information.
+
+## 1.2. Project Objectives
+
+Once the dataset has been obtained, it undergoes processing, analysis, and a model is created to predict which player will make it to the Hall of Fame. Each of the data sets in CSV files are collected strategically to have the data arranged appropriately before being entered into the Machine Learning model, and given that there are several data tables, the preprocessing involves several steps that may seem extensive.
+
+![image](https://user-images.githubusercontent.com/43154438/229947077-c6b967a7-ae81-4111-89ea-8aef250c1f0b.png)
+
+Figure 2: image that represents the union of different tables (datasets) that is what we did in this project
 
 
