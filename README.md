@@ -72,3 +72,15 @@ These are some of the graphs of important feature relevance:
 
 Figure 3: histograms that represent the number of votes per player depending on variables such as: number of races, number of Home Runs, number of years played, and number of appearances in the All-Star game.
 
+## 1.3. Programming Code Explanation
+
+This code is designed to analyze and process data from multiple CSV files. The following libraries were imported at the beginning of the code: pandas and matplotlib.pyplot. These libraries are commonly used for data analysis and visualization.
+After the libraries are imported, the code reads in multiple CSV files, including People.csv, Fielding.csv, Batting.csv, AwardsPlayers.csv, AllstarFull.csv, HallOfFame.csv, and Appearances.csv. These files contain various data on baseball players.
+Then, the data is processed as follows:
+
+•	Data from the people_df DataFrame is analyzed, and all columns except for playerID, nameFirst, and nameLast are removed. The resulting DataFrame is stored in the data_final variable.
+•	Data from the batting_df DataFrame is analyzed, and the total games played (G), at-bats (AB), runs (R), hits (H), doubles (2B), triples (3B), home runs (HR), runs batted in (RBI), stolen bases (SB), walks (BB), strikeouts (SO), and years played for each player are determined. These statistics are stored in a dictionary called estado_batting, which is then converted to a DataFrame called columnas_batting. The resulting DataFrame is joined with the data_final DataFrame on the playerID column.
+•	Data from the fielding_df DataFrame is analyzed, and the total assists (A), errors (E), and double plays (DP) for each player are determined. These statistics are stored in a dictionary called estado_filding, which is then converted to a DataFrame called columnas_fielding. The resulting DataFrame is joined with the data_final DataFrame on the playerID column.
+Then, the data is visualized using histograms to show the distribution of runs, home runs, years played, and All-Star Game appearances. Then, the unnecessary columns such as playerID, nameFirst, and nameLast are dropped.
+After that, the machine learning model is developed using logistic regression. The dependent variable is defined as the Hall of Fame (hof) status of the player, while the independent variables are all the other variables in the dataset, except for hof. The data is split into training and test sets with a 80-20 split.
+Next, linear discriminant analysis is used to improve the model. The algorithm is defined, trained on the training set, and tested on the test set. The accuracy and precision of the model are printed to evaluate the model’s performance.
