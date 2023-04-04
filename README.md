@@ -60,4 +60,15 @@ Once the dataset has been obtained, it undergoes processing, analysis, and a mod
 
 Figure 2: image that represents the union of different tables (datasets) that is what we did in this project
 
+Next, some of the specific processes that were done with some of the data: Since the Batting dataset does not show the total game statistics, but rather the statistics by played year, we sum up all the data since we are interested in the total statistics. These statistics include: games played, at-bats, runs scored, doubles, etc. This process is performed through a summation in a for loop where according to the player’s identification, the corresponding statistical variables are summed up and this way all the information from the played years will be stored. The same explained in the previous paragraph is the same thing that is done for the rest of the files, as what we need are the final statistics.
+
+Although for the case of awards dealing with the AwardsPlayers dataset, instead of a values accumulator, a counter is used for each award so that it can count the number of different awards each player has and the same occurs with the AllstarFull dataset where the number of All-Star games played by each player is counted.
+
+From the information obtained in the HallOfFame.csv file, the dependent variable was obtained for the Machine Learning model, as this is where the player’s votes to be part of the Hall of Fame are located. The rest of the information such as the managers and coaching staff are deleted as they are not important.
+
+These are some of the graphs of important feature relevance:
+
+![image](https://user-images.githubusercontent.com/43154438/229947227-0292bc84-370b-4d65-977f-1e60014d4337.png)
+
+Figure 3: histograms that represent the number of votes per player depending on variables such as: number of races, number of Home Runs, number of years played, and number of appearances in the All-Star game.
 
