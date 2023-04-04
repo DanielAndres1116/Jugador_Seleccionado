@@ -22,18 +22,24 @@ The National Baseball Hall of Fame and Museum located in New York is where all t
 
 •	With this knowledge, the goal of this project was to build a machine learning model that can accurately predict if a Major League Baseball player will be voted into the Hall of Fame.
 
-![image](https://user-images.githubusercontent.com/43154438/229946753-97c4988e-1839-4ecf-9b3f-5d8ed9fa4f6c.png)
+![image](https://user-images.githubusercontent.com/43154438/229946865-77889288-10f1-49f5-b055-e76eab0596fb.png)
 
 Figure 1: the files needed to make this project
 
 The files were copied to the root folder of the project for easier access. Each row represents the data of a baseball player, including information pertaining to a single season. The player is identified by a unique code, which we will use to identify them in our analysis. Here’s a brief explanation of the contents of each file:
 
 •	AllstarFull.csv contains information about whether the player played in a Major League Baseball All-Star game or not.
+
 •	Appearances.csv contains the number of games the player participated in while active.
+
 •	AwardsPlayers.csv contains information about awards the players have received over time, such as Most Valuable Player, Rookie of the Year, Gold Glove, Silver Slugger, and World Series MVP.
+
 •	Batting.csv contains the player’s offensive statistics, including batting information, divided by year.
+
 •	Fielding.csv contains information about the player’s defense, such as assists, errors committed, and double plays.
+
 •	HallOfFame.csv contains information about whether the player received votes or not to become part of the Hall of Fame, as well as additional details such as manager and coaching staff information.
+
 •	People.csv contains the corresponding code, player’s name, and all personal information.
 
 
