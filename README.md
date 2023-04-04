@@ -22,7 +22,7 @@ The National Baseball Hall of Fame and Museum located in New York is where all t
 
 •	With this knowledge, the goal of this project was to build a machine learning model that can accurately predict if a Major League Baseball player will be voted into the Hall of Fame.
 
-![image](https://user-images.githubusercontent.com/43154438/229946865-77889288-10f1-49f5-b055-e76eab0596fb.png)
+![image](https://user-images.githubusercontent.com/43154438/229946924-1848cde3-753e-4751-9c9d-e6aa5c3fbf15.png)
 
 Figure 1: the files needed to make this project
 
